@@ -1,7 +1,6 @@
 .streamlit/
 filename/
-filename1/
 result/
 tool/
-filenames_CREMAD.txt
-filenames_MEAD.txt
+tool_unuse/
+user_study1/
