@@ -144,9 +144,9 @@ def QA(Lip_Sync, Motion_Flu, num):
 
 # 将用户的答案转化为1/0
 def get_ans(answer_str):
-    if "Left" in answer_str:
+    if "左边" in answer_str:
         return "1"
-    elif "Right" in answer_str:
+    elif "右边" in answer_str:
         return "0"
     elif "" in answer_str:
         return ""
