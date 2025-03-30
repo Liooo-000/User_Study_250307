@@ -149,7 +149,7 @@ def get_ans(answer_str):
     elif "Right" in answer_str:
         return "0"
     elif "" in answer_str:
-        return "3"
+        return ""
     
 @st.cache_data
 def play_video(file_name):
